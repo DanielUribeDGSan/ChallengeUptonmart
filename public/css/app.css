@@ -6,7 +6,7 @@
         --gris: #E8E8E8;
         --gris-texto: #696969;
         --azul-marino: #08192d;
-        --fondo-azul: #0a183d;
+        --fondo-azul: #;
         --rosa: #fc0254;
     }
     
@@ -52,6 +52,15 @@
     .modal-header-login .close-login {
         padding: 1rem 1rem;
         margin: 0px;
+    }
+    
+    .swal2-styled.swal2-confirm {
+        border: 0;
+        border-radius: .25em;
+        background: initial;
+        background-color: var(--rosa);
+        color: var(--blanco);
+        font-size: 1.0625em;
     }
     
      ::-webkit-scrollbar {
@@ -140,6 +149,14 @@
     
     .espacio-40 {
         height: 40px;
+    }
+    
+    .espacio-50 {
+        height: 50px;
+    }
+    
+    .espacio-100 {
+        height: 100px;
     }
     
     .br-20 {

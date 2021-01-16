@@ -18,8 +18,8 @@ class CreatePayrollsTable extends Migration
             $table->string('direccion');
             $table->string('cuenta');
             $table->string('banco');
-            $table->decimal('cantidad_bruto', 5, 2);
-            $table->string('telefono');
+            $table->double('cantidad_bruto', 8, 2);
+            $table->string('telefono', 10);
             $table->unsignedBigInteger('user_id');
             $table->foreign('user_id')
                 ->references('id')
